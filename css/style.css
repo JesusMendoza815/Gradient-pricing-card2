@@ -1,0 +1,105 @@
+* {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+body {
+  background-color: #333848;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  margin: auto;
+  width: 70%;
+  height: 60%;
+  position: relative;
+  top: 20%;
+}
+
+nav {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: calc(33.3% - 30px);
+  margin: 0px 10px 0px 10px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.card1 {
+  background: linear-gradient(to right, #2f2f2f, #676767);
+}
+.card2 {
+  background: linear-gradient(to right, #ff5a2f, #ff5669);
+}
+.card3 {
+  background: linear-gradient(to right, #8ab63d, #009e9b);
+}
+
+nav:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  box-shadow: 0px 0px 5px 0px white;
+}
+
+p.plan-title {
+  font-size: 1.3rem;
+}
+
+strong {
+  font-size: 6rem;
+  display: block;
+}
+small {
+  font-size: 2rem;
+}
+
+
+
+/*PLAN TEXT*/
+.txt-plan hr {
+  vertical-align: middle;
+}
+
+.txt-plan {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+hr {
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  padding: 1px 1rem 1px 1rem;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition: all 0.3s;
+  border-radius: 25px;
+}
+nav:hover hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*Buttons*/
+
+button {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 25px 0px 25px 0px;
+  border: none;
+  bottom: 0px;
+  right: 0px;
+  width: 40%;
+  height: 10%;
+  transition: all 0.3s;
+  color: black;
+}
+
+nav:hover button {
+  width: 100%;
+  border-radius: 0px 0px 25px 25px;
+}
